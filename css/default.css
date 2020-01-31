@@ -22,6 +22,10 @@ ul, ol {
   list-style-type: none;
 }
 
+b {
+  font-weight: 600;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -77,6 +81,7 @@ main section h1 {
 
 main section > p {
   padding-bottom: 2rem;
+  line-height: 1.5;
 }
 
 main section ul#list_of_ios_apps {
@@ -117,6 +122,10 @@ main section ul#list_of_ios_apps li:nth-child(even) {
 main section ul#list_of_ios_apps li:nth-child(even) img {
   margin-right: 0;
   margin-left: 2rem;
+}
+
+main section ul#list_of_ios_apps li:last-child {
+  padding-bottom: 0;
 }
 
 footer {
