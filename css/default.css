@@ -75,7 +75,8 @@ main section {
   margin-top: 6rem;
 }
 
-main section h1 {
+main section h2 {
+  font-size: 3rem;
   padding-bottom: 2rem;
 }
 
@@ -102,12 +103,12 @@ main section ul#list_of_ios_apps li img {
   margin-right: 2rem;
 }
 
-main section ul#list_of_ios_apps li h1 {
+main section ul#list_of_ios_apps li h2 {
   font-size: 2rem;
   padding-bottom: 0;
 }
 
-main section ul#list_of_ios_apps li h2 {
+main section ul#list_of_ios_apps li h3 {
   font-size: 1.5rem;
 }
 
