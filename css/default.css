@@ -81,57 +81,16 @@ main section {
 }
 
 main section h2 {
+  text-align: center;
   font-size: 3rem;
   padding-bottom: 2rem;
 }
 
 main section > p {
+  text-align: center;
+  font-size: 2rem;
   padding-bottom: 2rem;
   line-height: 1.5;
-}
-
-main section ul#list_of_ios_apps {
-  margin-top: 2rem;
-}
-
-main section ul#list_of_ios_apps li {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 5rem;
-  text-align: justify;
-}
-
-main section ul#list_of_ios_apps li img {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 15.7%;
-  margin-right: 2rem;
-}
-
-main section ul#list_of_ios_apps li h2 {
-  font-size: 2rem;
-  padding-bottom: 0;
-}
-
-main section ul#list_of_ios_apps li h3 {
-  font-size: 1.5rem;
-}
-
-main section ul#list_of_ios_apps li p {
-  margin-top: 2rem;
-}
-
-main section ul#list_of_ios_apps li:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-main section ul#list_of_ios_apps li:nth-child(even) img {
-  margin-right: 0;
-  margin-left: 2rem;
-}
-
-main section ul#list_of_ios_apps li:last-child {
-  padding-bottom: 0;
 }
 
 footer {
@@ -156,31 +115,12 @@ footer ol li {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-
-  main section ul#list_of_ios_apps li:nth-child(even) {
-    flex-direction: row;
-  }
-
-  main section ul#list_of_ios_apps li:nth-child(even) img {
-    margin-right: 2rem;
-    margin-left: 0;
-  }  
 }
 
 @media screen and (max-width: 54rem) {
   main header img#profile_picture {
     width: 12rem;
     height: 12rem;
-  }
-
-  main section ul#list_of_ios_apps li img {
-    width: 6rem;
-    height: 6rem;
-    margin-right: 1rem;
-  }
-
-  main section ul#list_of_ios_apps li:nth-child(even) img {
-    margin-right: 1rem;
   }
   
   footer ol li {
@@ -208,23 +148,6 @@ footer ol li {
   main header img#profile_picture {
     width: 12rem;
     height: 12rem;
-  }
-}
-
-@media screen and (max-width: 32rem) {
-  main section ul#list_of_ios_apps li,
-  main section ul#list_of_ios_apps li:nth-child(even) {
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-  }
-
-  main section ul#list_of_ios_apps li img,
-  main section ul#list_of_ios_apps li:nth-child(even) img {
-    width: 10rem;
-    height: 10rem;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
   }
 }
 
